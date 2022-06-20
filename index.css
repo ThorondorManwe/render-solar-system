@@ -1,0 +1,80 @@
+:root {
+    --pink: #fbe6f4ff;
+    --yellow: #fffad1ff;
+    --green: #e1f0e5ff;
+    --blue: #b5caf9ff;
+    --orange: #f5e6db;
+    --raisin: #2b283aff;
+    --grey: #d4d4d4;
+}
+
+body {
+    background-color: var(--raisin);
+    color: white;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.planet {
+    margin: 1em
+}
+
+.planeta {
+    border-radius: 50%;
+    margin: 0 25px;
+}
+
+#mercury {
+    background-image: conic-gradient(black 0deg, black 180deg, var(--pink) 180deg);
+}
+
+#venus {
+    background-image: conic-gradient(black 0deg, black 180deg, var(--yellow) 180deg);
+}
+
+#earth {
+    background-image: conic-gradient(black 0deg, black 180deg, var(--green) 180deg);
+}
+
+#mars {
+    background-image: conic-gradient(black 0deg, black 180deg, var(--blue) 180deg);
+}
+
+#jupiter {
+    background-image: conic-gradient(black 0deg, black 180deg, var(--yellow) 180deg);
+}
+
+#saturn {
+    background-image: conic-gradient(black 0deg, black 180deg, var(--orange) 180deg);
+}
+
+#uranus {
+    background-image: conic-gradient(black 0deg, black 180deg, var(--grey) 180deg);
+}
+
+#neptune {
+    background-image: conic-gradient(black 0deg, black 180deg, var(--blue) 180deg);
+}
+
+.infoPlanet {
+    width: 15rem;
+    position: absolute;
+    top: 14rem;
+    background-image: linear-gradient(180deg, #FB3796, #585DFE);
+    padding: 1rem;
+}
+
+.infoPlanet p {
+    text-shadow: 0 0 #000;
+}
